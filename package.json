@@ -3,8 +3,11 @@
   "version": "1.0.0",
   "description": "Mad Libs with arrays!",
   "main": "madlibs.js",
+  "directories": {
+    "test": "test"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/.bin/karma start --single-run --no-auto-watch --browsers PhantomJS"
   },
   "repository": {
     "type": "git",
@@ -21,10 +24,14 @@
     "chai": "^3.4.0",
     "karma": "^0.13.15",
     "karma-chai": "^0.1.0",
+    "karma-fixture": "^0.2.5",
+    "karma-html2js-preprocessor": "^0.1.0",
     "karma-mocha": "^0.2.0",
+    "karma-phantomjs-launcher": "^0.2.1",
     "karma-sinon": "^1.0.4",
     "karma-sinon-chai": "^1.1.0",
     "mocha": "^2.3.3",
+    "phantomjs": "^1.9.18",
     "sinon": "^1.17.2",
     "sinon-chai": "^2.8.0"
   }
