@@ -1,11 +1,47 @@
+body {
+  background-color: #666666; }
+
+.wrapper {
+  width: 40em;
+  margin: 0 auto; }
+
+#headline {
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+  color: #eeeeee;
+  margin: 0; }
+
+#byline {
+  font-size: .2rem;
+  text-align: center;
+  margin: 0; }
+
+.top {
+  width: 100%;
+  text-align: center;
+  margin: 1em 0em; }
+
+#randomize {
+  background-color: #eeeeee;
+  border-radius: 25px;
+  border: black solid .2em; }
+
+.text {
+  background-color: #eeeeee;
+  padding: .5em; }
+
+p {
+  font-family: 'Source Serif Pro', serif;
+  padding: .5em;
+  outline: #000000 solid 1px; }
+
 .noun {
-  color: blue;
-}
+  color: blue; }
 
 .adj {
-  color: green;
-}
+  color: green; }
 
 .verb {
-  color: red;
-}
+  color: red; }
+
+/*# sourceMappingURL=styles.css.map */
