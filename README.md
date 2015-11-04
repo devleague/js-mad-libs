@@ -1,4 +1,3 @@
-# mad-libs
-Mad Libs with arrays! 
+# JS Mad Libs
+Play some mad libs and learn about arrays at the same time! 
 
-Let's learn how to use arrays with a game called Mad Libs! 
