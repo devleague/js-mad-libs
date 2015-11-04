@@ -4,6 +4,7 @@ module.exports = function (config) {
     frameworks: ['mocha', 'chai', 'sinon', 'sinon-chai', 'fixture'],
     files: [
       {pattern: 'test/fixtures/**/*.html', included: true},
+      'lib/app.js',
       'test/*.spec.js'
     ],
     reporters: ['progress'],
