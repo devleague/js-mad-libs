@@ -2,24 +2,42 @@
   <head>
     <meta charset="UTF-8">
     <title>Mad Libs</title>
+    <link href='https://fonts.googleapis.com/css?family=Oswald:700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Source+Serif+Pro' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="lib/styles.css">
   </head>
   <body>
-    <h1>Mad Libs</h1>
+    <div class="wrapper">
 
-    <button id="randomize">Randomize!</button>
+      <h1 id="headline"><span id="title"></span> Mad Libs</h1>
+      <h4 id="byline">Psst! Click the title!</h4>
 
-    <p>Come fall, when the <span class="noun">____</span> and <span class="noun">____</span> and high-season glamour <span class="verb">____</span>, <span class="noun">____</span>, like so many other things in the <span class="noun">____</span>, come into their own.</p>
+      <div class="top">
+        <button id="randomize">Show me the mad libs!</button>
+      </div>
 
-    <p>A <span class="noun">____</span> for one? A <span class="noun">____</span> all to yourself? Not a problem in this <span class="adj">____</span> city, despite what you may have heard.</p>
+      <div class="text">
 
-    <p>Stranger things have happened, but not like this <span class="adj">____</span> cookie I saw last night.</p>
+        <p>Come fall, when <span class="noun">____</span> and high-season glamour arrives, <span class="verb">____</span> the hokey-pokey, like so many other things in the <span class="noun">____</span>, come alive on their own.</p>
 
-    <p>The <span class="adj">____</span> version of the Firefox browser lets <span class="noun">____</span> opt to <span class="verb">____</span> people with <span class="noun">____</span>.</p>
+        <p>A <span class="noun">____</span> for one? A <span class="noun">____</span> all to yourself? Not a problem in this <span class="adj">____</span> city, despite what you may have heard.</p>
 
-    <p>So there was this <span class="noun">____</span> who loved to <span class="verb">____</span> everyday at the neighborhood <span class="noun">____</span>.</p>
+        <p>Stranger things have happened, but not like this <span class="adj">____</span> cookie I saw last night.</p>
 
-    <p>Don't forget that on the planet Hoth, the weather is always <span class="adj">____</span> and <span class="adj">____</span>. So make sure to <span class="verb">____</span> your <span class="noun">____</span>.</p>
+        <p>The <span class="adj">____</span> version of the Firefox browser lets <span class="noun">____</span> opt to <span class="verb">____</span> people with <span class="noun">____</span>.</p>
+
+        <p>So there was this <span class="noun">____</span> who loved to <span class="verb">____</span> everyday at the neighborhood <span class="noun">____</span>.</p>
+
+        <p>Don't forget that on the planet Hoth, the weather is always <span class="adj">____</span> and <span class="adj">____</span>. So make sure to <span class="verb">____</span> your <span class="noun">____</span>.</p>
+
+        <p>Come for the <span class="noun">____</span>, stay for the <span class="noun">____</span>. Wow, that's super <span class="adj">____</span>!</p>
+
+        <p>The only way you can <span class="verb">____</span> the race is to <span class="verb">____</span> the game using <span class="adj">____</span> skills.</p>
+
+      </div>
+
+    </div>
+
 
   <script src="madlibs.js"></script>
   <script src="lib/app.js"></script>
