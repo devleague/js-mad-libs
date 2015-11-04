@@ -1,0 +1,23 @@
+{
+  "name": "js-mad-libs",
+  "version": "1.0.0",
+  "description": "Mad Libs with arrays!",
+  "main": "madlibs.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/senakamura/js-mad-libs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/senakamura/js-mad-libs/issues"
+  },
+  "homepage": "https://github.com/senakamura/js-mad-libs#readme",
+  "dependencies": {
+    "chai": "^3.4.0",
+    "mocha": "^2.3.3"
+  }
+}
