@@ -17,4 +17,5 @@ Or if using Node.js `http-server` will suffice.
 
 1. Sign up for a github account - its free!
 1. Fork this repo over to your account. 
+1. Make your own edits! Mad Libs, JS, CSS, and more! 
 1. Checkout `https://pages.github.com/` for instructions on publishing your own version!
